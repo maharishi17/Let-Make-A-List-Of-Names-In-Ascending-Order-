@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a72; /* Elegant background */
+    color: #fff; /* White text for contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Input Field */
+  input[type="text"] {
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 320px;
+    border: 2px solid #fff; /* White border for contrast */
+    border-radius: 8px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle background */
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease; /* Smooth transition for focus effect */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #00adad; /* Light blue focus effect */
+    background-color: rgba(0, 173, 173, 0.2); /* Focus background */
+  }
+  
+  /* Button */
+  button {
+    padding: 12px 30px;
+    background-color: #00adad; /* Vibrant button color */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #007a7a; /* Darker shade on hover */
+  }
+  
+  /* List */
+  ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 320px; /* Match the width of the input */
+  }
+  
+  li {
+    padding: 15px;
+    background-color: #3a3a8d; /* Smooth background color */
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  li:hover {
+    background-color: #00adad; /* Hover effect with a vibrant color */
+    color: #fff; /* Text color change */
+  }
+  
